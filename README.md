@@ -13,18 +13,29 @@ Using Yarn:
 
 ### Using the operator
 
- - Import the package on top of all `operator-overloading` functionality in your code.
+ - Import the package on top of all `operator-overloading/global` functionality in your code. You can also require it on specific parts of your project by removing `/global` when importing.
+ ---
+*Global*
+ ```js
+ require('operator-overloading/global');
+ ```
+
+*Local*
+ ```js
+ const $ = require('operator-overloading');
+ ```
+ ---
  - To use the operator, call the function `$` with three arguments, `(a, OP, b)`.
 
 ### Creating the operator functions
 
  - In your class, define your operators as a function.
 
-### Example
+### Example (importing globally)
 
 Your code
 ```js
-require('simple-operator-overloading');
+require('simple-operator-overloading/global');
 
 const Vector = require('./Vector');
 
