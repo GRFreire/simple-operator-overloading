@@ -1,6 +1,6 @@
 {
   "name": "simple-operator-overloading",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple function that replaces operator-overloading in JS",
   "keywords": [
     "operator-overloading",
