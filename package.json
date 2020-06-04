@@ -1,7 +1,13 @@
 {
   "name": "simple-operator-overloading",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple function that replaces operator-overloading in JS",
+  "keywords": [
+    "operator-overloading",
+    "class-operator",
+    "operator",
+    "class"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/GRFreire/simple-operator-overloading.git"
   },
-  "author": "",
+  "author": "GRFreire",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GRFreire/simple-operator-overloading/issues"
